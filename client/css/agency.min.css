@@ -640,7 +640,7 @@ section h3.section-subheading{
 	}
 	::selection{
 		text-shadow:none;
-		background:#050E40;
+		background:#081665;
 	}
 	img::selection{
 		background:0 0;
@@ -1290,7 +1290,7 @@ ul.social-buttons li a:active,ul.social-buttons li a:focus,ul.social-buttons li 
 }
 ::selection{
 	text-shadow:none;
-	background:#050E40;
+	background:#081665;
 }
 img::selection{
 	background:0 0;
