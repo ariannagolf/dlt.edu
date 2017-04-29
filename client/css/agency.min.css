@@ -18,7 +18,7 @@
 	font-weight:700;
 }
 .text-muted {
-	color:#777;
+	color:white;
 }
 .text-primary,a {
 	color:#050E40;
@@ -1298,4 +1298,3 @@ img::selection{
 img::-moz-selection{
 	background:0 0;
 }
-
