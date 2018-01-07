@@ -12,6 +12,8 @@
  	font-family:"Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
  	webkit-tap-highlight-color:#050E40;
  }
+
+
 .btn-primary,.btn-xl,h1,h2,h3,h4,h5,h6 {
 	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	text-transform:uppercase;
@@ -153,7 +155,7 @@ a.active,a:active,a:focus,a:hover {
 .navbar-custom.affix .navbar-brand{
 	font-size:1.5em;}}
 header{
-	background-image:url(../img/header-bg.jpg);
+	background-image:url('../client/img/ny.jpg'); /*one you use to change*/
 	background-repeat:no-repeat;
 	background-attachment:scroll;
 	background-position:center center;
@@ -715,6 +717,7 @@ a.active,a:active,a:focus,a:hover{
 	border-radius:3px;
 	font-size:18px;
 	padding:20px 40px;
+	width: 210px;
 }
 .btn-xl.active,.btn-xl:active,.btn-xl:focus,.btn-xl:hover,.open .dropdown-toggle.btn-xl{
 	color:#f1f1f1;
@@ -730,7 +733,7 @@ a.active,a:active,a:focus,a:hover{
 	background-color:#f1f1f1;
 }
 .navbar-custom{
-	background-color:#222;
+	background-color:#222222;
 	border-color:transparent;
 }
 .navbar-custom .navbar-brand{
@@ -800,7 +803,7 @@ a.active,a:active,a:focus,a:hover{
 	}
 }
 header{
-	background-image:url(../img/header-bg.jpg);
+	background-image:url('../client/img/ny.jpg');
 	background-repeat:no-repeat;
 	background-attachment:scroll;
 	background-position:center center;
@@ -811,6 +814,7 @@ header{
 	text-align:center;
 	color:#f1f1f1;
 }
+
 header .intro-text{
 	padding-top:100px;
 	padding-bottom:50px;
@@ -1298,3 +1302,27 @@ img::selection{
 img::-moz-selection{
 	background:0 0;
 }
+.wrap {
+    width: 100%;
+    overflow:auto;
+    padding-bottom: 5%;
+    margin-top: 3%
+}
+.fleft {
+    float:left; 
+    width: 50%;
+    background:url("http://res2.windows.microsoft.com/resbox/en/windows/main/01fdadc8-e0e2-46a2-aac8-50b174f40cca_4.jpg") no-repeat center center fixed;
+    height: 100%;
+    padding-top: 5%;
+    padding-left: 3%;
+    color: white;
+}
+.fright {
+    float: right;
+    background:url("http://wallpapers55.com/wp-content/uploads/2013/08/Best-Beach-Wallpapers-Background-HD-Wallpaper.jpg") no-repeat center center fixed;
+    height: 100%;
+    width: 50%;
+    padding-top: 5%;
+    color: white;
+}
+
