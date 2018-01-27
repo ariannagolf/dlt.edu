@@ -155,7 +155,7 @@ a.active,a:active,a:focus,a:hover {
 .navbar-custom.affix .navbar-brand{
 	font-size:1.5em;}}
 header{
-	background-image:url('../client/img/ny.jpg'); /*one you use to change*/
+	background-image:url('img/ny.jpg'); /*one you use to change*/
 	background-repeat:no-repeat;
 	background-attachment:scroll;
 	background-position:center center;
@@ -478,7 +478,7 @@ section h3.section-subheading{
 	}
 	section#contact{
 		background-color:#222;
-		background-image:url(../img/map-image.png);
+		background-image:url(img/map-image.png);
 		background-position:center;
 		background-repeat:no-repeat;
 	}
@@ -803,7 +803,7 @@ a.active,a:active,a:focus,a:hover{
 	}
 }
 header{
-	background-image:url('../client/img/header-bg.jpg');
+	background-image:url('img/header-bg.jpg');
 	background-repeat:no-repeat;
 	background-attachment:scroll;
 	background-position:center center;
@@ -1130,7 +1130,7 @@ aside.clients img{
 }
 section#contact{
 	background-color:#222;
-	background-image:url(../img/map-image.png);
+	background-image:url(img/map-image.png);
 	background-position:center;
 	background-repeat:no-repeat;
 }
@@ -1322,7 +1322,7 @@ img::-moz-selection{
     background:url("http://wallpapers55.com/wp-content/uploads/2013/08/Best-Beach-Wallpapers-Background-HD-Wallpaper.jpg") no-repeat center center fixed;
     height: 100%;
     width: 50%;
-    padding-top: 5%;
+    padding-top: 8%;
     color: white;
 }
 
