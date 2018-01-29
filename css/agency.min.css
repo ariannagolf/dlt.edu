@@ -1183,6 +1183,8 @@ section#contact .text-danger{
 footer{
 	padding:25px 0;
 	text-align:center;
+	background-color: #222;
+    color: white;
 }
 footer span.copyright{
 	line-height:40px;
@@ -1306,8 +1308,8 @@ img::-moz-selection{
     width: 100%;
     overflow:auto;
     padding-bottom: 5%;
-    border-top: #222 solid 20px;
-    border-bottom: #222 solid 20px;
+    border-top: black solid 20px;
+    border-bottom: black solid 20px;
 }
 .fleft {
     float:left; 
